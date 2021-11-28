@@ -1,7 +1,6 @@
-![stroke](/img/stroke.jpg)
 # Stroke Prediction
 ###### Can we predict if a patient have stroke based on the features identified?
-<br><br>
+![stroke](/img/stroke.jpg)
 ## 1. Data
 Data source: [Kaggle](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) <br>
 Data updated date: 2021-01-26 <br>
