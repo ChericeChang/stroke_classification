@@ -1,4 +1,4 @@
-![stroke](./img/stroke.jpeg)
+![stroke](/img/stroke.jpeg)
 # Stroke Prediction
 ###### Can we predict if a patient have stroke based on the features identified?
 <br><br>
@@ -33,13 +33,13 @@ In general, this dataset could be pretty generalizable to the population data.
 
 ## 4. EDA
 #### 4.1 Numerical Features
-![numerical_features](./img/numerical_features.png)
+![numerical_features](/img/numerical_features.png)
 * The pearson correlation chart above shows that there's no significant relationship between each other.
 * t-test was performed to the features (age, average glucose level, and bmi) and the result was to reject the null hypothesis that the means are equal.
 
 #### 4.2 Categorical Features
 Here's the percent of stroke in each category
-![percentofstroke](./img/percentofstroke_features.png)
+![percentofstroke](/img/percentofstroke_features.png)
 ##### Chi-Squared Test
 These features below look like they are statistically significant that they are dependent variables of stroke.
 * **work type:** (2.9%) of people whose work type is private had stroke.
