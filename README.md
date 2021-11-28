@@ -1,4 +1,4 @@
-![stroke](/img/stroke.jpeg)
+![stroke](/img/stroke.jpg)
 # Stroke Prediction
 ###### Can we predict if a patient have stroke based on the features identified?
 <br><br>
@@ -28,8 +28,8 @@ Most of the columns are pretty clean, except for BMI.
 > Minor data changes: <br>change values/column name to lower case
 
 In general, this dataset could be pretty generalizable to the population data.
-> Note: In US, 2/3 adults were considered to be overweight or have obesity. The dataset has 28.1%, which is closer to the global average 39% of adults are overweight.
-> Note: the dataset (76%) contains more married people than US national average (48.2%)
+* In US, 2/3 adults were considered to be overweight or have obesity. The dataset has 28.1%, which is closer to the global average 39% of adults are overweight.
+* The dataset (76%) contains more married people than US national average (48.2%)
 
 ## 4. EDA
 #### 4.1 Numerical Features
