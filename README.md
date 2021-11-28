@@ -65,8 +65,7 @@ tp: 28<br>
 fp: 739 <br>
 tn: 732<br>
 fn: 35<br>
-
-making the recall score 0.44, higher than these models above. (Decision tree: 0.17; Logistic regression: 0, Random forest: 0)
+![result](/img/modelresult.png)<br>
 
 ### Optimization suggestion.
 
