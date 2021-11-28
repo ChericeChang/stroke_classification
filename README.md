@@ -24,7 +24,8 @@ There are many different types of classifier:
 
 Most of the columns are pretty clean, except for BMI.
 > Treatment for BMI:<br>201 null values were replaced by average BMI from the dataset.
-> Minor data changes: <br>change values/column name to lower case
+
+Minor data changes: <br>change values/column name to lower case
 
 In general, this dataset could be pretty generalizable to the population data.
 * In US, 2/3 adults were considered to be overweight or have obesity. The dataset has 28.1%, which is closer to the global average 39% of adults are overweight.
