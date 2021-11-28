@@ -41,8 +41,8 @@ In general, this dataset could be pretty generalizable to the population data.
 Here's the percent of stroke in each category
 ![percentofstroke](/img/percentofstroke_features.png)
 ##### Chi-Squared Test
-Chi-squared test result:
-![result](/img/chi2test.png)
+Chi-squared test result:<br>
+![result](/img/chi2test.png)<br>
 These features below look like they are statistically significant that they are dependent variables of stroke.
 * **work type:** (2.9%) of people whose work type is private had stroke.
 * **smoking status:** (1.8%) of people who has never smoked had stroke
