@@ -41,6 +41,8 @@ In general, this dataset could be pretty generalizable to the population data.
 Here's the percent of stroke in each category
 ![percentofstroke](/img/percentofstroke_features.png)
 ##### Chi-Squared Test
+Chi-squared test result:
+![result](/img/chi2test.png)
 These features below look like they are statistically significant that they are dependent variables of stroke.
 * **work type:** (2.9%) of people whose work type is private had stroke.
 * **smoking status:** (1.8%) of people who has never smoked had stroke
@@ -70,4 +72,5 @@ making the recall score 0.44, higher than these models above. (Decision tree: 0.
 
 1. Implement [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/) for imbalanced data (oversample the stroke data) and undersample the non-stroke data.<br>
 2. Use Cross Validation, Grid Search, and Random Search to tune the hyperparameter.
-3. Get more features and data.
+3. Remove some features that didn't pass the significance testing (Gender, residence type)
+4. Get more features and data.
