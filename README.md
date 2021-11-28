@@ -69,7 +69,10 @@ fn: 35<br>
 
 ### Optimization suggestion.
 
-1. Implement [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/) for imbalanced data (oversample the stroke data) and undersample the non-stroke data.<br>
-2. Use Cross Validation, Grid Search, and Random Search to tune the hyperparameter.
-3. Remove some features that didn't pass the significance testing (Gender, residence type)
-4. Get more features and data.
+1. Data acquisition: get more data, especially stroke patients
+2. Implement [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/) : oversample the stroke data, undersample the non-stroke data
+3. Feature selection:
+    * remove some features that didn’t pass the significance testing (Gender, Residence Type)
+    * BMI change it to categorical
+4. Hyperparameter tuning: Use Cross Validation, Grid Search, and Random Search to find better hyperparameters.
+
