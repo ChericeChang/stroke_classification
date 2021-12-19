@@ -54,23 +54,35 @@ While the features below didn't pass the chi-squared test
 * Gender
 * Residence_type
 
+
+## 5. Data Preprocessing
+Data is split into training dataset and testing dataset:
+* training dataset is treated using SMOTE to resolve for issues that can be caused by having an imbalanced dataset
+* both datasets are standardized using standard scaler and encoded using binary encoding.
+
 ## 5. Model Building
 All of the model mentioned in method above were from sklearn library.
 
 ## 6. Conclusion
-All models performed badly on the test data, most likely due to the nature of imbalanced dataset.
+All performed okay on the test data, most likely due to original dataset is imbalanced.
 
-If we make a rough guess that half of the people will get stroke, we will get the following confusion matrix:<br>
-tp: 28<br>
-fp: 739 <br>
-tn: 732<br>
-fn: 35<br>
+If we make a rough guess that half of the people will get stroke, we will get the following confusion matrix:
+tp: 42
+fp: 725
+tn: 724
+fn: 42
+
+making the recall score for stroke 0.5, balanced accuracy score of 0.5.
+
+Logistic Regrssion shows the strongest performance without any other optimization currently. It has recall score for stroke: 0.36; balanced accuracy score of 0.63.
+
+Balanced accuracy score of logistic regression performs better than benchmark (50% guess model). but recall score for stroke is weaker than benchmark.<br>
 ![result](/img/modelresult.png)<br>
 
 ### Optimization suggestion.
 
 1. Data acquisition: get more data, especially stroke patients
-2. Implement [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/) : oversample the stroke data, undersample the non-stroke data
+2. Optimize SMOTE for imbalanced data (oversample the stroke data) and undersample the non-stroke data. [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/)
 3. Feature selection:
     * remove some features that didn’t pass the significance testing (Gender, Residence Type)
     * BMI change it to categorical
