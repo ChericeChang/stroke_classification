@@ -77,7 +77,7 @@ making the recall score for stroke 0.5, balanced accuracy score of 0.5.
 Logistic Regrssion shows the strongest performance without any other optimization currently. It has recall score for stroke: 0.36; balanced accuracy score of 0.63.
 
 Balanced accuracy score of logistic regression performs better than benchmark (50% guess model). but recall score for stroke is weaker than benchmark.<br>
-![result](/img/modelresult.png)<br>
+![result](/img/modelresults.png)<br>
 
 ### Optimization suggestion.
 
